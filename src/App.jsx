@@ -93,6 +93,7 @@ const App = () => {
         window.addEventListener("resize", resize);
       }
 
+      let posy;
       function mouseMove(e) {
         var posx = (posy = 0);
         if (e.pageX || e.pageY) {
@@ -157,7 +158,7 @@ const App = () => {
         gsap.to(p, 1 + 1 * Math.random(), {
           x: p.originX - 50 + Math.random() * 100,
           y: p.originY - 50 + Math.random() * 100,
-          ease: Circ.easeInOut,
+          ease: "Circ.easeInOut",
           onComplete: function () {
             shiftPoint(p);
           },
