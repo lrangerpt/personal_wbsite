@@ -2,11 +2,14 @@ import { useRef, useState } from "react";
 import gsap from "gsap";
 import { CustomEase } from "gsap/CustomEase";
 import { useGSAP } from "@gsap/react";
+import Form from "./components/ContactForm.jsx";
+import ContactForm from "./components/ContactForm.jsx";
 
 const App = () => {
   gsap.registerPlugin(useGSAP, CustomEase);
   const container = useRef();
 
+  //Three.js code for animation
   useGSAP(() => {
     (function () {
       var width,
@@ -215,7 +218,9 @@ const App = () => {
         <div id="form" className="flex flex-col gap-5 mt-24 z-99">
           <p className="font-ubuntu text-[1.1rem] font-light mb-4 leading-snug">For any work-related matters, feel free to drop me a message.</p>
         </div>
+        <ContactForm />
       </section>
+
     </>
   );
 };

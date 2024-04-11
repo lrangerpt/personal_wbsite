@@ -7,6 +7,9 @@ export default {
         titillium: ["Titillium Web", "sans-serif"],
         ubuntu: ["Ubuntu", "sans-serif"],
       },
+      colors: {
+        'inputBg': 'rgba(30,30,30,0.85)'
+      },
     },
   },
   plugins: [],
