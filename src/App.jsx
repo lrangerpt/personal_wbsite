@@ -220,7 +220,6 @@ const App = () => {
         </div>
         <ContactForm />
       </section>
-
     </>
   );
 };
