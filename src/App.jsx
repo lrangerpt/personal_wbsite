@@ -212,9 +212,9 @@ const App = () => {
       <div id="large-header">
         <canvas id="demo-canvas"></canvas>
       </div>
-      <section id="content" className="h-screen flex flex-col items-center justify-center mix-blend-normal relative z-10">
-        <h1 className="font-bold font-titillium text-8xl">Rui Lopes</h1>
-        <h2 className="text-[2.6rem] font-extralight font-titillium mt-4 leading-snug">Creative Developer & Wordpress Pro</h2>
+      <section id="content" className="h-screen flex flex-col items-center justify-center mix-blend-normal relative z-10 px-5">
+        <h1 className="font-bold font-titillium md:text-8xl text-5xl">Rui Lopes</h1>
+        <h2 className="md:text-[2.6rem] text-[2rem] font-extralight font-titillium mt-4 leading-snug text-center">Creative Developer & Wordpress Pro</h2>
         <div id="form" className="flex flex-col gap-5 mt-24 z-99">
           <p className="font-ubuntu text-[1.1rem] font-light mb-4 leading-snug">For any work-related matters, feel free to drop me a message.</p>
         </div>
